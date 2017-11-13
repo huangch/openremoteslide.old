@@ -4,7 +4,7 @@ Recent progress in applying deep learning technologies for the analysis of digit
 
 Thus, I decided to develop OpenRemoteSlide, which is an extension for OpenSlide (http://openslide.org/), allowing users accessing images from remote based on the same fashion of using OpenSlide. For example, in OpenSlide, you use (/path/to/a/image/image.svs) pointing a digital pathological whole-slide image file. In OpenRemoteSlide, instead of downloading the image file beforehand, you can use (https://url/to/a/image/file/on/the/image.svs) directly. 
 
-![ openremoteslide_performance.png.png](openremoteslide_performance.png "Openremoteslide Performance")
+![ openremoteslide_performance.png.png](https://github.com/huangch/openremoteslide/blob/master/openremoteslide.png "Openremoteslide Performance")
 
 The Figure shows comparison of the costs of data transfer and storage performance for OpenRemoteSlide. We used the TCGA pathological image set as an example, selected some WSIs with size $\sim$1GB. This plot shows the differences between the costs of acquiring various amount of information from these WSIs.
  
