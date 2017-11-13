@@ -1,0 +1,11 @@
+prefix=/media/huangch/D/workspace/tcga-image-pipeline/openremoteslide-341.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: openremoteslide
+Description: A library for reading whole slide images.
+
+Version: 341.0.1
+Libs: -L${libdir} -lopenremoteslide
+Cflags: -I${includedir}/openremoteslide
