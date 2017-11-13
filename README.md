@@ -6,7 +6,7 @@ Thus, I decided to develop OpenRemoteSlide, which is an extension for OpenSlide 
 
 ![ openremoteslide_performance.png.png](https://github.com/huangch/openremoteslide/blob/master/openremoteslide.png "Openremoteslide Performance")
 
-The Figure shows comparison of the costs of data transfer and storage performance for OpenRemoteSlide. We used the TCGA pathological image set as an example, selected some WSIs with size $\sim$1GB. This plot shows the differences between the costs of acquiring various amount of information from these WSIs.
+The figure shows comparison of the costs of data transfer and storage performance for OpenRemoteSlide. We used the TCGA pathological image set as an example, selected some WSIs with size $\sim$1GB. This plot shows the differences between the costs of acquiring various amount of information from these WSIs.
  
 Based on OpenRemoteSlide, the average cost (the actual size of data transferred and stored) for obtaining the image properties is ~7.5 MB, which is less than 1% of the data file size of the chosen image. For acquiring a (4000x4000) image from level 0, the average cost is ~19.8 MB, about 1.8% of the total data size. For randomly acquiring 100 image samples with size of (400x400), the average cost is ~233 MB, about 21.2% of the total data size. In other words, the proposed OpenRemoteSlide can save the cost of accessing WSIs from remote from 78.8% up to 99.3%, depending on the desired coefficients for the data acquisition.
 
