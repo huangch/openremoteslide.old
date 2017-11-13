@@ -2,7 +2,7 @@
 
 Recent progress in applying deep learning technologies for the analysis of digital pathological images has received much attention from researchers in both industry and academia as accuracy of these methods can be as good as 98.4%. However, most deep learning approaches require huge sets of training patterns. In addition, a pathological whole slide image (WSI) can be as big as 1 to 10 GB and most of the images are not always freely available on a local storage system. On the other hand, not every piece on the WSI is needed for either human-made or automated pathological analysis. This fact represents a huge cost redundancy in terms of data transfer and storage.
 
-Thus, I decided to develop OpenRemoteSlide, which is an extension for OpenSlide (http://openslide.org/), allowing users accessing images from remote based on the same fashion of using OpenSlide. For example, in OpenSlide, you use (/path/to/a/image/image.svs) pointing a digital pathological whole-slide image file. In OpenRemoteSlide, instead of downloading all giga-size image files beforehand, you can actually access any region of an image from remote by giving its URL, e.g., (https://url/to/a/image/file/on/the/image.svs), so that the cost for data transfer and storage can be saved.
+Thus, I decided to develop OpenRemoteSlide, which is an extension for OpenSlide (http://openslide.org/), allowing users accessing images from remote based on the same fashion of using OpenSlide. For example, in OpenSlide, you use (/path/to/an/image/image.svs) pointing a digital pathological whole-slide image file. In OpenRemoteSlide, instead of downloading all giga-size image files beforehand, you can actually access any region of an image from remote by giving its URL, e.g., (https://url/to/an/image/file/on/the/image.svs), so that the cost for data transfer and storage can be saved.
 
 ![ openremoteslide_performance.png.png](https://github.com/huangch/openremoteslide/blob/master/openremoteslide.png "Openremoteslide Performance")
 
@@ -13,5 +13,3 @@ Based on OpenRemoteSlide, the average cost (the actual size of data transferred 
 The source code of OpenRemoteSlide can be found in my github: https://github.com/huangch/OpenRemoteSlide/
 
 For the original version of OpenSlide, please see: http://openremoteslide.org/
-
-
